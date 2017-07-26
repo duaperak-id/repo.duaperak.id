@@ -1,0 +1,1 @@
+yum update -y && rpm -Uvh http://rpm.repo.onapp.com/repo/onapp-repo-3.3.noarch.rpm && yum install onapp-cp-install -y && /onapp/onapp-cp-install/onapp-cp-install.sh && yum install onapp-store-install -y && /onapp/onapp-store-install/onapp-store-install.sh && service onapp restart && clear
